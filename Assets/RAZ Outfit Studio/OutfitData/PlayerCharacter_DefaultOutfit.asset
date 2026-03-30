@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b2dcd7d0b147a41bd296aa7f57ed3a, type: 3}
+  m_Name: PlayerCharacter_DefaultOutfit
+  m_EditorClassIdentifier: Assembly-CSharp::OutfitData
+  outfitName: PlayerCharacter_DefaultOutfit
+  description: Auto-generated default outfit from the root mesh.
+  outfitPrefab: {fileID: 5711107769900879668, guid: 0381e6000bdca4d45932d7320babc22b, type: 3}
+  previewSprite: {fileID: 21300000, guid: db472d61f9e3ed84580366ca351df2f8, type: 3}
+  icon: {fileID: 2800000, guid: db472d61f9e3ed84580366ca351df2f8, type: 3}
+  author: Connect2Aryans
+  version: 1.0
+  hasCustomPreview: 1
+  previewOffset: {x: 0, y: 0}
+  previewScale: 1

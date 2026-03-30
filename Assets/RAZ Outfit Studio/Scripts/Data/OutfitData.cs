@@ -17,6 +17,11 @@ public class OutfitData : ScriptableObject
     public System.DateTime creationDate;
     public string version = "1.0";
 
+    [Header("Preview Settings")]
+    public bool hasCustomPreview = false;
+    public Vector2 previewOffset;
+    public float previewScale = 1f;
+
     private void OnEnable()
     {
         if (string.IsNullOrEmpty(outfitName))
@@ -28,6 +33,11 @@ public class OutfitData : ScriptableObject
         {
             creationDate = System.DateTime.Now;
         }
+
+        if (string.IsNullOrEmpty(author))
+        {
+            author = System.Environment.UserName;
+        }
     }
 
     private void OnValidate()
@@ -35,6 +45,11 @@ public class OutfitData : ScriptableObject
         if (string.IsNullOrEmpty(outfitName) && !string.IsNullOrEmpty(name))
         {
             outfitName = name;
+        }
+
+        if (previewSprite != null || icon != null)
+        {
+            hasCustomPreview = true;
         }
     }
 }

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b2dcd7d0b147a41bd296aa7f57ed3a, type: 3}
+  m_Name: TestOutfit Outfit
+  m_EditorClassIdentifier: Assembly-CSharp::OutfitData
+  outfitName: TestOutfit Outfit
+  description: 
+  outfitPrefab: {fileID: 7501285425160477246, guid: 0c53be15340ebb0499ee698de91f880b, type: 3}
+  previewSprite: {fileID: 21300000, guid: 3482b1a9078e1af4187323b9f35c24b4, type: 3}
+  icon: {fileID: 2800000, guid: c546e1624996df34793392ec8d14db1d, type: 3}
+  author: Connect2Aryans
+  version: 1.0
+  hasCustomPreview: 1
+  previewOffset: {x: 0, y: 0}
+  previewScale: 1
